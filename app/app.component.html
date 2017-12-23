@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+    
+</div>
+<div class="container" fxLayoutAlign="left">
+  
+  <div fxLayout="row" class="content"> 
+ <app-client-info fxFlex="29%" > </app-client-info>
+ 
+    <div id="image_map" fxFlex="40%"  > 
+      <map name="map_teeth_image"> 
+        <area shape="poly" coords="203,31,238,30,233,65,212,69" (click)="selectPart('TL1')"> 
+        <area shape="poly" coords="243,25,275,34,259,67,243,68" (click)="selectPart('TR1')"> 	  
+      <area shape="poly" coords="174,43,204,42,208,75,192,74" (click)="selectPart('TL2')">
+      <area shape="poly" coords="278,38,307,55,278,76,267,68" (click)="selectPart('TR2')">
+      <area shape="poly" coords="106,208,157,209,140,246,112,243" (click)="selectPart('TL8')">
+      <area shape="poly" coords="323,211,373,214,360,246,327,245" (click)="selectPart('TR8')">
+      
+      </map> 
+      <img src="../assets/img/Smile_adultChart.jpg" alt="image map" width=500 height=497 usemap="#map_teeth_image"> 
+    </div>
+  </div>
+  </div> 

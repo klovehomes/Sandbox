@@ -1,0 +1,9 @@
+.slim-card{
+    width: 100% ;
+    height: 100%;
+}
+
+.example-girl-image {
+    background-image: './assets/img/girl-face.jpg';
+    background-size: cover;
+  }
